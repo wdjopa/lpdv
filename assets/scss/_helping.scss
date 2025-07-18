@@ -1,0 +1,223 @@
+
+//page scroll bar add
+::-webkit-scrollbar {
+	width: 6px;
+	height: 4px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px $header-color; 
+	border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: $theme-color-2;
+	border-radius: 10px;
+}
+//page scroll bar add
+
+//Basic Code Start
+.fix {
+  overflow: hidden;
+}
+
+.ralt{
+ position: relative;
+}
+
+//Basic Code End
+
+//Video Css Start
+.ripple {
+  position: relative;
+
+  &::before,&::after {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 80px;
+      height: 80px;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      border-radius: 50%;
+      box-shadow: 0 0 0 0  rgba(255, 255, 255,.9);
+      animation: rippleOne 3s infinite;
+  }
+
+  &::before {
+      -webkit-animation-delay: 0.9s;
+      animation-delay: 0.9s;
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+  }
+
+  &::after {
+      -webkit-animation-delay: 0.6s;
+      animation-delay: 0.6s;
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+  }
+}
+//Video Css End
+
+.swiper-dot {
+   text-align: center;
+    margin-top: 60px;
+
+  .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      transition: 0.6s;
+      background: transparent;
+      border: 1px solid $header-color;
+      opacity: 1;
+      border-radius: 50%;
+      &:not(:last-child){
+      margin-right: 10px;
+      }
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background-color: rgba(98, 171, 255, 1);
+      transition: 0.6s;
+      position: relative;
+      border: 1px solid rgba(98, 171, 255, 1);
+
+      &::before{
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      line-height: 26px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      border-radius: 50%;
+      background-color: transparent;
+      border: 1px solid rgba(98, 171, 255, 1);
+      content: "";
+      }
+  }
+}
+
+.swiper-dot3 {
+  text-align: center;
+
+  .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      transition: 0.6s;
+      background-color: $header-color;
+      border: 1px solid $text-color;
+      border-radius: 0;
+      opacity: 1;
+      position: relative;
+      &:not(:last-child){
+        margin-right: 15px;
+      }
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background-color: $theme-color;
+      border: 1px solid $theme-color;
+      transition: 0.6s;
+      position: relative;
+      width: 10px;
+      height: 10px;
+      border-radius: 0;
+
+      &::before {
+        @include before;
+        border: 1px solid $theme-color;
+        width: 20px;
+        height: 20px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+      }
+  }
+
+}
+
+.array-buttons {
+  @include flex;
+  gap: 18px;
+
+    .array-prev {
+      width: 46px;
+      height: 46px;
+      line-height: 46px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: transparent;
+      @include transition;
+      border: 1px solid rgba(10, 3, 31, 1);
+      color: $header-color;
+      @include transition;
+
+      &:hover {
+          background-color: $theme-color;
+          color: $white;
+          border: 1px solid $theme-color;
+      }
+    }
+
+    .array-next {
+      width: 46px;
+      height: 46px;
+      line-height: 46px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #A0FFC2;
+      color: $header-color;
+      @include transition;
+
+      &:hover {
+        background-color: $header-color;
+        color: $white;
+    }
+
+    } 
+}
+//pagination default
+
+
+
+br {
+  @include breakpoint(max-sm){
+    display: none;
+  }
+}
+
+
+/* background */
+.bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.sticky-style {
+  position: sticky !important;
+  top: 100px;
+}
+
+.box-shadow {
+  box-shadow: $shadow;
+}
+
+.slide-transtion {
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+.brand-slide-element {
+	width: auto;
+	display: inline-block;
+}
+
+.custom-container {
+    max-width: 1637px;
+    margin: 0 auto;
+}

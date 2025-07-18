@@ -1,0 +1,138 @@
+.about-wrapper-4 {
+    margin-top: 40px;
+
+    .about-image {
+        position: relative;
+
+        @include breakpoint (max-lg) {
+          height: 600px;
+        }
+
+        @include breakpoint (max-sm) {
+            height: 450px;
+          }
+
+        img {
+            @include imgw;
+            object-fit: cover;
+        }
+
+        &.style-2 {
+            margin-top: -150px;
+
+           @include breakpoint (max-xl) {
+                margin-top: 0;
+           }
+        }
+
+        .circle-shape {
+            position: absolute;
+            bottom: 27px;
+            left: -120px;
+
+            @include breakpoint (max-xl) {
+                left: 50%;
+                transform: translate(-50%,-50%);
+                top: 50%;
+                bottom: initial;
+           }
+
+            img {
+                width: initial;
+                height: initial;
+            }
+
+            .video-btn {
+                color: #ACAAFF;
+                display: inline-block;
+                font-size: 24px;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                top: 50%;
+                z-index: 999;
+            }
+    
+            .circle-image {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                top: 50%;
+    
+                img {
+                    animation: cir36 10s linear infinite;
+                }
+            }
+        }
+    }
+
+    .about-content {
+        margin-left: 50px;
+        position: relative;
+
+        @include breakpoint (max-xl) {
+            margin-left: 0;
+       }
+
+        h3 {
+            font-size: 32px;
+            margin-bottom: 20px;
+
+            @include breakpoint (max-sm) {
+                font-size: 20px;
+           }
+        }
+
+        p {
+            max-width: 494px;
+        }
+
+        .theme-btn {
+            background: #FF94FF;
+            margin-top: 50px;
+
+            @include breakpoint (max-xl) {
+                margin-top: 30px;
+            }
+
+            i {
+                color: #FF94FF;
+            }
+
+            &:hover {
+                i {
+                    background-color: $white;
+                }
+            }
+        }
+    }
+}
+
+.about-section-4 {
+    position: relative;
+
+    &::before {
+        @include before;
+        background: #DDFFF5;
+    }
+
+    .left-shape {
+        position: absolute;
+        left: 26%;
+        top: 10%;
+
+        @include breakpoint (max-xl) {
+            display: none;
+        }
+    }
+
+    .right-shape {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        @include breakpoint (max-xl) {
+            display: none;
+        }
+    }
+}

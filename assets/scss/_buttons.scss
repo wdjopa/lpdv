@@ -1,0 +1,120 @@
+//>>>>> Component Button Here <<<<<//
+.theme-btn {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border: none;
+    outline: none !important;
+    background-color: $theme-color;
+    color: $header-color;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px 36px 9px;
+    transition: 0.3s ease-in-out;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 40px;
+    line-height: 1;
+    font-family: "DM Sans", sans-serif;
+    padding-right: 9px;
+
+    i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: $header-color;
+        color: $theme-color;
+        display: inline-block;
+        margin-left: 30px;
+        transform: rotate(-45deg);
+        @include transition;
+    }
+
+    &::after {
+        content: "";
+        background-color: $header-color;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        clip-path: circle(0% at 50% 50%);
+        transition: all cubic-bezier(0, 0.96, 0.58, 1.1) 0.7s;
+        z-index: -1;
+    }
+
+    &.bg-new {
+        background-color: #FFC394;
+
+        i {
+            background-color: $white;
+            color: $header-color;
+        }
+
+        &:hover {
+            i {
+                background-color: $white;
+            }
+        }
+    }
+
+    &:hover {
+        background-color: $header-color;
+        color: $white;
+
+        i {
+            background-color: $theme-color;
+            color: $header-color;
+        }
+
+        &::after {
+            clip-path: circle(100% at 50% 50%);
+            transition: all cubic-bezier(0, 0.96, 0.58, 1.1) 4s;
+        }
+    }
+
+    &.theme-btn-2 {
+        background: #80F8AB;
+    }
+
+    // @include breakpoint (max-md){
+    //     padding: 20px 32px;
+    // }
+
+    // @include breakpoint (max-sm){
+    //     padding: 18px 30px;
+    //     font-size: 14px;
+    // }
+}
+//>>>>> Component Button End <<<<<//
+
+.link-btn {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+    color: $theme-color-2;
+    font-family: DM Sans;
+    display: inline-block;
+    @include transition;
+
+
+    i {
+        margin-left: 10px;
+        transform: rotate(-50deg);
+        @include transition;
+    }
+
+    &:hover {
+        color: #FFA762;
+
+        i {
+            transform: rotate(0);
+        }
+    }
+}

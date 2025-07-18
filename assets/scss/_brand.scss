@@ -1,0 +1,172 @@
+.brand-main-item {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: "";
+        left: -7%;
+        top: 36%;
+        background-color: rgb(0, 0, 0);
+        width: 1px;
+        height: 63%;
+
+        @include breakpoint (max-xxxl) {
+            display: none;
+        }
+   }
+
+   &.style-2 {
+
+    &::before {
+        display: none;
+    }
+
+   }
+   
+    h3 {
+        font-size: 44px;
+        margin-bottom: 40px;
+        text-align: center;
+        line-height: 1;
+
+        @include breakpoint (max-md){
+            margin-bottom: 30px;
+        }
+    }
+
+    .brand-item {
+        @include flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        max-width: 710px;
+
+        @include breakpoint (max-xxl) {
+           flex-wrap: wrap;
+           gap: 20px;
+        }
+
+        @include breakpoint (max-lg) {
+           justify-content: center;
+           margin: 0 auto 30px;
+        }
+
+        .brand-image {
+            min-width: 215px;
+            height: 90px;
+            line-height: 80px;
+            border-radius: 10px;
+            border-top: 1px solid $header-color;
+            border-right: 3px solid $header-color;
+            border-bottom: 3px solid $header-color;
+            border-left: 1px solid $header-color;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
+    &.style-3 {
+        margin-top: 30px;
+
+        &::before {
+            display: none;
+        }
+
+        .brand-item {
+            justify-content: initial;
+            max-width: none;
+            margin-bottom: 0;
+
+            .brand-image {
+                min-width: 232px;
+
+                &.style-3 {
+                    min-width: 240px;
+                }
+            }
+        }
+    }
+}
+
+.brand-section {
+    position: relative;
+
+    .shape {
+        position: absolute;
+        top: 100px;
+        right: 100px;
+    }
+}
+
+.brand-wrapper-3 {
+    border-radius: 10px;
+    padding-left: 170px;
+    padding-right: 170px;
+
+    @include breakpoint (max-xxl){
+       padding-left: 30px;
+       padding-right: 30px;
+    }
+
+    .brand-image {
+        padding: 35px;
+        background-color: $white;
+        border-radius: 10px;
+        border-top: 1px solid #7490FF;
+        border-right: 3px solid #7490FF;
+        border-bottom: 3px solid #7490FF;
+        border-left: 1px solid #7490FF;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .theme-btn {
+        &::after {
+            background-color: $white;
+        }
+
+        &:hover {
+            color: $header-color;
+        }
+    }
+}
+
+.brand-section-3 {
+    position: relative;
+    z-index: 9;
+
+    &::before {
+        @include before;
+        z-index: -1;
+        background-color: #FFFAD6;
+        top: 50%;
+    }
+}
+
+.brand-image-4 {
+    min-width: 215px;
+    height: 127px;
+    line-height: 127px;
+    border-radius: 10px;
+    border-top: 1px solid var(--header);
+    border-right: 3px solid var(--header);
+    border-bottom: 3px solid var(--header);
+    border-left: 1px solid var(--header);
+    text-align: center;
+    margin: 30px auto 0;
+
+    @include breakpoint (max-xxl){
+        min-width: 170px;
+    }
+
+    @include breakpoint (max-xl){
+        min-width: 215px;
+    }
+
+    &.style-border {
+        margin-top: 60px;
+
+        @include breakpoint (max-xl){
+            margin-top: 30px;
+        }
+    }
+}

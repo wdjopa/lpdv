@@ -1,0 +1,123 @@
+.faq-wrapper {
+    &.style-top {
+        margin-top: 30px;
+
+    }
+    .faq-image {
+        margin-right: 70px;
+        max-width: 644px;
+
+        @include breakpoint (max-xxl){
+            margin-right: 0;
+        }
+
+        img {
+            @include imgw;
+        }
+
+        &.style-inner {
+            margin-left: 70px;
+            margin-right: 0;
+
+            @include breakpoint (max-xxl){
+                margin-left: 0;
+            }
+        }
+    }
+
+    .faq-content {
+
+        .faq-items {
+
+            &.style-2 {
+                @include breakpoint (max-xl) {
+                    margin-top: 30px;
+                }
+            }
+    
+            .accordion-item {
+                border: 0;
+                background-color: $white;
+                border-radius: 4px;
+                border: 1px solid rgba(0, 0, 0, 0.15);
+              
+                .accordion-header { 
+                    border: none;
+                    .accordion-button { 
+                        font-size: 20px;
+                        font-weight: 400;
+                        color: $header-color;
+                        border: 0;
+                        border-radius: 0;
+                        box-shadow: none;
+                        background-color: $white;
+                        padding: 22px 22px 0;
+                        text-transform: capitalize;
+            
+                        &::after {
+                            content: "\f078";
+                            background: transparent;
+                            font-family: $fa;
+                            font-weight: 400;
+                            transition: all 0.3s ease-in-out !important;
+                            color: $header-color;
+                        }
+                        &:not(.collapsed)::after {
+                            content: "\f077";
+                            background: transparent;
+                            font-family: $fa;
+                            font-weight: 400;
+                            transform: rotate(0);
+                            color: $header-color;
+                        }
+            
+                        &.collapsed {
+                            background-color: transparent;
+                            padding: 25px 30px;
+                            color: $header-color;
+                        }
+                      
+                    }
+                }
+            
+                .accordion-collapse { 
+            
+                    .accordion-body {
+                        padding-left: 22px;
+                        padding-top: 15px;
+                        color: #504E4E;
+                        background: $white;
+                    }
+                }
+
+                &.style-3 {
+                    .accordion-header {
+                        .accordion-button {
+                           padding-left: 35px;
+                        }
+                    }
+                    .accordion-body {
+                        padding-right: 90px;
+                        padding-left: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.faq-section-3 {
+    margin: 0 100px;
+
+    @include breakpoint (max-xxxl){
+        margin: 0 50px;
+    }
+
+    @include breakpoint (max-xxl){
+        margin: 0 40px;
+    }
+
+    @include breakpoint (max-xl){
+        margin: 0 0;
+    }
+}
