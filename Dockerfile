@@ -1,20 +1,23 @@
-FROM php:8.2-apache
+FROM php:8.4-fpm
 
-# Install common PHP extensions that might be needed
-RUN docker-php-ext-install pdo pdo_mysql mysqli
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    nginx \
+    zip unzip \
+    libzip-dev \
+    && docker-php-ext-install pdo pdo_mysql zip
 
-# Enable Apache rewrite module (useful for clean URLs)
-RUN a2enmod rewrite
+# Copy Nginx config
+COPY ./nginx.conf /etc/nginx/nginx.conf
 
-# Set the working directory
+# Copy app files
+COPY . /var/www/html
+
+# Set permissions
+RUN chown -R www-data:www-data /var/www/html
+
+# Set working dir
 WORKDIR /var/www/html
 
-# Copy your PHP file(s) to the web root
-COPY . /var/www/html/
-
-# Set proper permissions
-RUN chown -R www-data:www-data /var/www/html \
-    && chmod -R 755 /var/www/html
-
-# Start Apache in the foreground
-CMD ["apache2-foreground"]
+# Start both php-fpm and nginx
+CMD service nginx start && php-fpm
