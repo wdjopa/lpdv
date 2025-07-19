@@ -157,7 +157,7 @@
                                 </li> -->
             </ul>
           </div>
-          <a href="https://lapausedesvisonnaires.cm/ticket" class="theme-btn">Billeterie <i
+          <a href="https://lapausedesvisonnaires.cm/ticket.php" class="theme-btn">Billeterie <i
               class="fas fa-long-arrow-right"></i></a>
         </div>
       </div>
@@ -236,9 +236,9 @@
             Dim. 03 Août 2025 | Serena Hotel, Douala, Cameroun
           </p>
           <div class="hero-button">
-            <a href="https://lapausedesvisionnaires.cm/sponsor" class="theme-btn style-2 wow fadeInUp"
+            <a href="https://lapausedesvisionnaires.cm/sponsor.php" class="theme-btn style-2 wow fadeInUp"
               data-wow-delay=".3s">Devenir Sponsor <i class="fas fa-long-arrow-right"></i></a>
-            <a href="https://lapausedesvisionnaires.cm/ticket" class="theme-btn wow fadeInUp"
+            <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn wow fadeInUp"
               data-wow-delay=".5s">Billeterie <i class="fas fa-long-arrow-right"></i></a>
           </div>
         </div>
@@ -1372,7 +1372,7 @@
               <p>
                 A wide range of desktop publishing tools and web design editors now feature.
               </p>
-              <a href="https://lapausedesvisionnaires.cm/ticket" class="theme-btn">Acheter mon ticket <i
+              <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn">Acheter mon ticket <i
                   class="fas fa-long-arrow-right"></i></a>
             </div>
           </div>
@@ -1390,7 +1390,7 @@
                 Une opportunité de faire progresser vos entreprises, de rencontrer du beau monde et de nouer des
                 partenariats.
               </p>
-              <a href="https://lapausedesvisionnaires.cm/ticket" class="theme-btn">Acheter mon ticket <i
+              <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn">Acheter mon ticket <i
                   class="fas fa-long-arrow-right"></i></a>
             </div>
           </div>
@@ -1407,7 +1407,7 @@
               <p>
                 A wide range of desktop publishing tools and web design editors now feature.
               </p>
-              <a href="https://lapausedesvisionnaires.cm/ticket" class="theme-btn">Acheter mon ticket <i
+              <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn">Acheter mon ticket <i
                   class="fas fa-long-arrow-right"></i></a>
             </div>
           </div>
@@ -1627,7 +1627,7 @@
                       </h5>
                       <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordion">
                         <div class="accordion-body">
-                          Pour devenir sponsor de l'événement, veuillez <a href="/sponsor" target="_blank">cliquer
+                          Pour devenir sponsor de l'événement, veuillez <a href="/sponsor.php" target="_blank">cliquer
                             ici</a>. Nous serons ravis de discuter des différentes options de sponsoring disponibles.
                         </div>
                       </div>
@@ -1723,7 +1723,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="https://lapausedesvisionnaires.cm/sponsor">
+                      <a href="https://lapausedesvisionnaires.cm/sponsor.php">
                         <i class="fas fa-long-arrow-right"></i>
                         Sponsors Team
                       </a>
@@ -1737,7 +1737,7 @@
                   </ul>
                   <ul class="list-area">
                     <li>
-                      <a href="https://lapausedesvisionnaires.cm/ticket">
+                      <a href="https://lapausedesvisionnaires.cm/ticket.php">
                         <i class="fas fa-long-arrow-right"></i>
                         Contact Us
                       </a>
@@ -1755,7 +1755,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="https://lapausedesvisionnaires.cm/ticket">
+                      <a href="https://lapausedesvisionnaires.cm/ticket.php">
                         <i class="fas fa-long-arrow-right"></i>
                         Terms of Use
                       </a>
@@ -1775,7 +1775,7 @@
           </div>
           <h2 class="wow img-custom-anim-left" data-wow-duration="1.3s" data-wow-delay="0.3s">LPDV</h2>
         </div>
-        <a href="https://lapausedesvisionnaires.cm/ticket" class="circle-box wow fadeInUp" data-wow-delay=".5s">
+        <a href="https://lapausedesvisionnaires.cm/ticket.php" class="circle-box wow fadeInUp" data-wow-delay=".5s">
           <span>
             <span class="icon">
               <i class="fas fa-long-arrow-right"></i>
