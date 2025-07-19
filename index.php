@@ -368,7 +368,7 @@
                 <img src="/assets/img/brand/logo-3.webp" alt="img">
               </div>
             </div>
-            <div class="brand-item mb-0 wow fadeInUp" data-wow-delay=".6s">
+            <div class="brand-item mb-4 wow fadeInUp" style="margin-bottom: 4px" data-wow-delay=".6s">
               <div class="brand-image">
                 <img src="/assets/img/brand/logo-2.webp" alt="img">
               </div>
@@ -377,6 +377,17 @@
               </div>
               <div class="brand-image">
                 <img src="/assets/img/brand/logo-1.webp" alt="img">
+              </div>
+            </div>
+            <div class="brand-item mb-0 wow fadeInUp" data-wow-delay=".6s">
+              <div class="brand-image">
+                <img src="/assets/img/brand/logo-7.png" alt="img">
+              </div>
+              <div class="brand-image">
+                <img src="/assets/img/brand/logo-8.png" alt="img">
+              </div>
+              <div class="brand-image">
+                <img src="/assets/img/brand/logo-9.jpg" alt="img">
               </div>
             </div>
           </div>
@@ -392,15 +403,16 @@
     <div class="container">
       <div class="section-title text-center">
         <h2 class="text-white text-anim">
-          PROGRAMME
+          PANELISTES
+          <!-- PROGRAMME -->
         </h2>
       </div>
-      <div class="event-schedul-wrapper-3">
+      <div class="d-none event-schedul-wrapper-3">
         <ul class="nav">
           <li class="nav-item wow fadeInUp" data-wow-delay=".2s">
-            <a href="#thumb1" data-bs-toggle="tab" class="nav-link active">
+            <a href="#thumb1" data-bs-toggle="tab" class="nav-link active" style="color: white;">
               DIMANCHE, 03 AOÛT
-              <span>À Partir de 12h</span>
+              <span style="color: white">À Partir de 12h</span>
             </a>
           </li>
         </ul>
@@ -410,11 +422,11 @@
               <div class="event-schedul-left">
                 <div class="client-info">
                   <div class="thumb">
-                    <img src="assets/img/event-schedul/client-1.png" alt="img">
+                    <img src="assets/img/speakar/yves.jpeg" alt="img" style="width: 60px; aspect-ratio: square; border-radius: 100px">
                   </div>
                   <div class="content">
-                    <h6>EMILY ROBERTS</h6>
-                    <p>Lead Designer</p>
+                    <h6>Yves Bapa</h6>
+                    <p>Fondateur de PondoWiz</p>
                   </div>
                 </div>
                 <span>
@@ -426,7 +438,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">REGISTRATION & BREAKFAST</a></h3>
+                  <h3><a href="#">REGISTRATION & BREAKFAST</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -455,7 +467,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">CHALLENGES OF A NEW BRANDING TECHNIQUE</a></h3>
+                  <h3><a href="#">CHALLENGES OF A NEW BRANDING TECHNIQUE</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -464,7 +476,7 @@
                 </div>
               </div>
             </div>
-            <div class="event-schedul-items active wow fadeInUp" data-wow-delay=".3s">
+            <div class="event-schedul-items wow fadeInUp" data-wow-delay=".3s">
               <div class="event-schedul-left">
                 <div class="client-info">
                   <div class="thumb">
@@ -484,7 +496,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SUSTAINABLE BUSINESS PRACTICES FOR MODERN BRAND</a></h3>
+                  <h3><a href="#">SUSTAINABLE BUSINESS PRACTICES FOR MODERN BRAND</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -513,7 +525,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">BUILDING STRONGER CUSTOMER CONNECTIONS</a></h3>
+                  <h3><a href="#">BUILDING STRONGER CUSTOMER CONNECTIONS</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -542,7 +554,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SHIFT YOUR PERSPECTIVE ON DIGITAL BUSINESS</a></h3>
+                  <h3><a href="#">SHIFT YOUR PERSPECTIVE ON DIGITAL BUSINESS</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -571,7 +583,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SPECH: CULTURES OF CREATIVITY OF MARKETING</a></h3>
+                  <h3><a href="#">SPECH: CULTURES OF CREATIVITY OF MARKETING</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -602,7 +614,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">REGISTRATION & BREAKFAST</a></h3>
+                  <h3><a href="#">REGISTRATION & BREAKFAST</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -631,7 +643,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">CHALLENGES OF A NEW BRANDING TECHNIQUE</a></h3>
+                  <h3><a href="#">CHALLENGES OF A NEW BRANDING TECHNIQUE</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -660,7 +672,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SUSTAINABLE BUSINESS PRACTICES FOR MODERN BRAND</a></h3>
+                  <h3><a href="#">SUSTAINABLE BUSINESS PRACTICES FOR MODERN BRAND</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -689,7 +701,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">BUILDING STRONGER CUSTOMER CONNECTIONS</a></h3>
+                  <h3><a href="#">BUILDING STRONGER CUSTOMER CONNECTIONS</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -718,7 +730,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SHIFT YOUR PERSPECTIVE ON DIGITAL BUSINESS</a></h3>
+                  <h3><a href="#">SHIFT YOUR PERSPECTIVE ON DIGITAL BUSINESS</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -747,7 +759,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SPECH: CULTURES OF CREATIVITY OF MARKETING</a></h3>
+                  <h3><a href="#">SPECH: CULTURES OF CREATIVITY OF MARKETING</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -778,7 +790,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">REGISTRATION & BREAKFAST</a></h3>
+                  <h3><a href="#">REGISTRATION & BREAKFAST</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -807,7 +819,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">CHALLENGES OF A NEW BRANDING TECHNIQUE</a></h3>
+                  <h3><a href="#">CHALLENGES OF A NEW BRANDING TECHNIQUE</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -836,7 +848,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SUSTAINABLE BUSINESS PRACTICES FOR MODERN BRAND</a></h3>
+                  <h3><a href="#">SUSTAINABLE BUSINESS PRACTICES FOR MODERN BRAND</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -865,7 +877,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">BUILDING STRONGER CUSTOMER CONNECTIONS</a></h3>
+                  <h3><a href="#">BUILDING STRONGER CUSTOMER CONNECTIONS</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -894,7 +906,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SHIFT YOUR PERSPECTIVE ON DIGITAL BUSINESS</a></h3>
+                  <h3><a href="#">SHIFT YOUR PERSPECTIVE ON DIGITAL BUSINESS</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -923,7 +935,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SPECH: CULTURES OF CREATIVITY OF MARKETING</a></h3>
+                  <h3><a href="#">SPECH: CULTURES OF CREATIVITY OF MARKETING</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -954,7 +966,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">REGISTRATION & BREAKFAST</a></h3>
+                  <h3><a href="#">REGISTRATION & BREAKFAST</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -983,7 +995,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">CHALLENGES OF A NEW BRANDING TECHNIQUE</a></h3>
+                  <h3><a href="#">CHALLENGES OF A NEW BRANDING TECHNIQUE</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -1012,7 +1024,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SUSTAINABLE BUSINESS PRACTICES FOR MODERN BRAND</a></h3>
+                  <h3><a href="#">SUSTAINABLE BUSINESS PRACTICES FOR MODERN BRAND</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -1041,7 +1053,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">BUILDING STRONGER CUSTOMER CONNECTIONS</a></h3>
+                  <h3><a href="#">BUILDING STRONGER CUSTOMER CONNECTIONS</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -1070,7 +1082,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SHIFT YOUR PERSPECTIVE ON DIGITAL BUSINESS</a></h3>
+                  <h3><a href="#">SHIFT YOUR PERSPECTIVE ON DIGITAL BUSINESS</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -1099,7 +1111,7 @@
                 <div class="event-bg bg-cover" style="background-image: url('assets/img/event-schedul/event-bg.jpg');">
                 </div>
                 <div class="event-cont">
-                  <h3><a href="schedule.html">SPECH: CULTURES OF CREATIVITY OF MARKETING</a></h3>
+                  <h3><a href="#">SPECH: CULTURES OF CREATIVITY OF MARKETING</a></h3>
                   <p>
                     A wide range of desktop publishing tools and web design editors now feature dummy text as their
                     primary example content. If you look up ‘dummy text,’ you’ll find many sites that are still in the
@@ -1372,7 +1384,7 @@
               <p>
                 A wide range of desktop publishing tools and web design editors now feature.
               </p>
-              <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn">Acheter mon ticket <i
+              <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn">Billeterie <i
                   class="fas fa-long-arrow-right"></i></a>
             </div>
           </div>
@@ -1390,7 +1402,7 @@
                 Une opportunité de faire progresser vos entreprises, de rencontrer du beau monde et de nouer des
                 partenariats.
               </p>
-              <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn">Acheter mon ticket <i
+              <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn">Billeterie <i
                   class="fas fa-long-arrow-right"></i></a>
             </div>
           </div>
@@ -1407,7 +1419,7 @@
               <p>
                 A wide range of desktop publishing tools and web design editors now feature.
               </p>
-              <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn">Acheter mon ticket <i
+              <a href="https://lapausedesvisionnaires.cm/ticket.php" class="theme-btn">Billeterie <i
                   class="fas fa-long-arrow-right"></i></a>
             </div>
           </div>
@@ -1717,7 +1729,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="schedule.html">
+                      <a href="#">
                         <i class="fas fa-long-arrow-right"></i>
                         Event Schedule
                       </a>
