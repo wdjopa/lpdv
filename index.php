@@ -379,9 +379,9 @@
                 <img src="/assets/img/brand/logo-1.webp" alt="img">
               </div>
             </div>
-            <div class="brand-item mb-0 wow fadeInUp" data-wow-delay=".6s">
-              <div class="brand-image">
-                <img src="/assets/img/brand/logo-7.png" alt="img">
+            <div class="brand-item mb-5 wow fadeInUp" data-wow-delay=".6s">
+              <div class="brand-image" >
+                <img src="/assets/img/brand/logo-7.png" alt="img" style="border-radius: 400px">
               </div>
               <div class="brand-image">
                 <img src="/assets/img/brand/logo-8.png" alt="img">
@@ -389,6 +389,17 @@
               <div class="brand-image">
                 <img src="/assets/img/brand/logo-9.jpg" alt="img">
               </div>
+            </div>
+            <div class="brand-item mb-4 wow fadeInUp" data-wow-delay=".6s">
+              <div class="brand-image">
+                <img src="/assets/img/brand/logo-10.png" alt="img">
+              </div>
+              <!-- <div class="brand-image">
+                <img src="/assets/img/brand/logo-8.png" alt="img">
+              </div>
+              <div class="brand-image">
+                <img src="/assets/img/brand/logo-9.jpg" alt="img">
+              </div> -->
             </div>
           </div>
         </div>
