@@ -1,3 +1,6 @@
+<?php
+echo "Hello, world!";
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <!--<< Header Area >>-->
